@@ -1,6 +1,9 @@
-bjects = [];
+objects = [];
 status = "";
 video = "";
+var synth=window.speechSynthesis;
+speak.utterThis();
+var utterThis=new SpeechSynthesisUtterance("object mentioned found"); 
 
 function setup() {
     canvas = createCanvas(480, 380);
